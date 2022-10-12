@@ -1,0 +1,147 @@
+.card-image{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+}
+
+.card-details{
+    margin: 24px 0;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  .card button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+  .card-control{
+    display: flex;
+  }
+
+  .user-container{
+    margin-top:50px;
+  }
+
+  .header-title{
+    color: white!important;
+  }
+
+  .btn-primary{
+    background-color: #4ea9ef;
+  }
+
+  .btn-danger{
+    background-color: #ec2c00ed;
+  }
+
+  #customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .icon-blue{
+    background-color: #4ea9ef;
+  }
+
+  .icon-red{
+    background-color: red;
+  }
+
+  .anticon{
+    vertical-align: 0rem!important;
+    font-size: 17px;
+  }
+
+  .icon-btn{
+    max-width: 35px;
+  }
+
+  .rdt_TableHeadRow{
+    background: #414141!important;
+    color: white;
+  }
+
+  .rdt_TableRow:nth-child(odd) {
+    background: white;
+  }
+
+  .rdt_TableRow:nth-child(even) {
+    background: #eaeaea;
+  }
+
+  .pull-left{
+    text-align: left;
+  }
+
+  .clickable{
+    cursor: pointer;
+  }
+
+
+  /* Edit User */
+.profile-card{
+  border-radius: 4px;
+  background: whitesmoke;
+}
+
+.border-right{
+  border-right: 1px solid #dee2e6!important;
+}
+
+.wd-100{
+  width: 100%;
+}
+
+.mr-2{
+  margin-right: 10px!important;
+}
